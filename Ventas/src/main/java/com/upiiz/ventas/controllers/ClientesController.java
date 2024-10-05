@@ -9,7 +9,7 @@ public class ClientesController {
     //Respuesta para todas las clientes       GET
     @GetMapping
     public String listarClientes() {
-        return "Listado de todas las Clientes - Get";
+        return "Listado de todos las Clientes - Get";
     }
 
     //Respuesta para una cliente por su id -  GET
